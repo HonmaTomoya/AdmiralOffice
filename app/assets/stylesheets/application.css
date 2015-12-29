@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  background: url(/puronama.png) no-repeat fixed center #2e2929;
+  background-size: 100% auto;
+  color: #aaaaaf;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Meiryo", "メイリオ", "Osaka", "MS PGothic", arial, helvetica, sans-serif;
+
+}
+
+body a{
+  color: #ccccb3;
+  text-decoration: underline;
+}
+
+body a:hover{
+  color: #cc9966;
+}
+
+body a:visited{
+  color: #9b59b6;
+}
+
+header {
+  border-bottom: dashed 1px grey; 
+}
+
+#contents_body{
+  width: 980px;
+  padding: 0px 10px;
+  margin: 0 auto;
+}
+
+#session_page {
+  background-color: rgba(47,41,41,0.7);
+  border: 1px dashed grey;
+  width: 400px;
+  margin: 20px auto 0px;
+  padding: 0px 20px;
+} 
+
+.layer_page {
+  background: url(/sub_puronama.png) no-repeat fixed right bottom #2e2929;
+  background-size: 300px auto;
+}
+
+h1, h2, h3 {
+  border-bottom: 1px solid grey;
+}
+
+/* For Smartphone */
+@media only screen
+  and (max-device-width:320px){
+  body {
+    font-size: 1.8em;
+  }
+
+  #contents_body {
+    width: 90%;
+    padding 0px 5%;
+  }
+} 
