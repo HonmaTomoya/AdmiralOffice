@@ -10,6 +10,13 @@ gem 'ruby-mysql'
 gem 'devise'
 gem 'kaminari'
 gem 'unicorn'
+
+gem 'rmagick'
+gem 'paperclip'
+
+gem 'twitter-bootstrap-rails'
+gem 'less-rails'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
